@@ -2,8 +2,6 @@ import { Container } from './styles'
 import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
-import telegram from '../../assets/telegram.svg'
 import instagramIcon from '../../assets/instagram.svg'
 
 export function Footer() {
@@ -34,20 +32,6 @@ export function Footer() {
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
-        {/* <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak+I+found+your+contact+through+portfolio+site.%0A%0A"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={whatsapp} alt="Whatsapp" />
-        </a> */}
-        {/* <a
-          href="https://t.me/CodeVinayak"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={telegram} alt="telegram" />
-        </a> */}
         <a
           href="https://www.instagram.com/_oindritaaa/"
           target="_blank"
