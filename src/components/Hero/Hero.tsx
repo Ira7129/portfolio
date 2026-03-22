@@ -5,7 +5,6 @@ import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
 import email from '../../assets/email-icon.svg'
@@ -60,13 +59,7 @@ export function Hero() {
         >
           <img src={instagrame} alt="Instagrame" />
         </a>
-        {/* <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak+I+found+your+contact+through+portfolio+site.%0A%0A"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={whatsapp} alt="Whatsapp" />
-        </a> */}
+      
         <a
           href="https://t.me/Ira_0456"
           target="_blank"
