@@ -2,15 +2,15 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   :root{
-    --pink: #E31F71;
-    --black: #212121;
-    --green: #23ce6b;
-    --blue: #016fb9;
+    --pink: #aa3767;
+    --black: #0e3958;
+    --green: rgb(132, 213, 149)
     scroll-padding-top: 10rem;
 
     &.light{
 
-      body{
+      body{e6b;
+    --blue: #125784;
         transition: 0.5s;
         background-color: #f5f5f5;
         color: var(--black);
@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
 
       header.header-fixed{
         transition: 0.5s;
-        background-color: #f5f5f550;
+        background-color: #cac0cc50;
         a{
           transition: 0.5s;
           color: black;
